@@ -1,0 +1,13 @@
+import java.util.*;
+
+public class TestInterruttore{
+    
+    public static Interruttore newSwitch(Lampadina lamp){
+        Interruttore S = new Interruttore(lamp);
+        return S;
+    }
+
+    public static void useSwitch(Interruttore S){
+
+    }
+}
